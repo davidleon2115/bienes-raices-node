@@ -1,0 +1,26 @@
+{
+  "name": "bienes-raices-node",
+  "version": "1.0.0",
+  "description": "Bienes raices con node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidleon2115/bienes-raices-node.git"
+  },
+  "keywords": [
+    "MVC",
+    "Pug",
+    "Tailwind",
+    "Mysql",
+    "Sequelize"
+  ],
+  "author": "David Leon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidleon2115/bienes-raices-node/issues"
+  },
+  "homepage": "https://github.com/davidleon2115/bienes-raices-node#readme"
+}
