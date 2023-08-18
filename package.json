@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Bienes raices con node",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "server": "nodemon index.js"
   },
   "repository": {
     "type": "git",
