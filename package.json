@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/davidleon2115/bienes-raices-node/issues"
   },
-  "homepage": "https://github.com/davidleon2115/bienes-raices-node#readme"
+  "homepage": "https://github.com/davidleon2115/bienes-raices-node#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
