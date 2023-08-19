@@ -7,6 +7,9 @@ const app = express();
 //Routing
 app.use('/', usuarioRoutes)
 
+//Habilitar pug
+app.set('view engine', 'pug');
+
 //Definir un puerto y arrancar el proyecto
 const port = 3000;
 
