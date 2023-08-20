@@ -2,5 +2,14 @@ extends ../layout/index
 
 //- Se usa el bloque creado en el layout en index
 block contenido
-    div
-        h2(class="text-center text-2xl") Crear Cuenta
+    div(class="py-10")
+        h1(class="text-4xl my-10 font-extrabold text-center") Bienes
+            span(class="font-normal") Raices
+        h2(class="text-center text-2xl font-extrabold")= pagina
+
+        div(class="mt-8 mx-auto max-w-md")
+            div(class="bg-white py-8 px-4 shadow")
+                form(action="") 
+                    div
+                        label(class="block text-sm uppercase text-gray-500 mb-3 font-bold", for="nombre") Tu Nombre:
+                        input(type="text", name="nombre", id="nombre", class="w-full px-3 py-2 border border-gray-300")
