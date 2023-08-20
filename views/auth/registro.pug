@@ -9,7 +9,19 @@ block contenido
 
         div(class="mt-8 mx-auto max-w-md")
             div(class="bg-white py-8 px-4 shadow")
-                form(action="") 
+                form(action="", class="space-y-4") 
                     div
-                        label(class="block text-sm uppercase text-gray-500 mb-3 font-bold", for="nombre") Tu Nombre:
-                        input(type="text", name="nombre", id="nombre", class="w-full px-3 py-2 border border-gray-300")
+                        label(class="block text-sm uppercase text-gray-500 mb-2 font-bold", for="nombre") Tu Nombre:
+                        input(type="text", placeholder="Tu Nombre", name="nombre", id="nombre", class="w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400")
+
+                    div
+                        label(class="block text-sm uppercase text-gray-500 mb-2 font-bold", for="email") Tu Email:
+                        input(type="text", placeholder="Tu Email", name="email", id="email", class="w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400")
+
+                    div
+                        label(class="block text-sm uppercase text-gray-500 mb-2 font-bold", for="password") Contraseña:
+                        input(type="password", placeholder="Tu Contraseña", name="password", id="password", class="w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400")
+
+                    div
+                        label(class="block text-sm uppercase text-gray-500 mb-2 font-bold", for="repetirPassword") Repetir la Contraseña:
+                        input(type="password", placeholder="Tu Contraseña", name="repetirPassword", id="repetirPassword", class="w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400")
