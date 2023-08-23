@@ -11,6 +11,7 @@ app.use( urlencoded({extended: true}) )
 //Conexion a la base de datos
 try {
     await db.authenticate();
+    db.sync()
     console.log("Base de Datos conectada");
 } catch (error) {
     console.log(error)
