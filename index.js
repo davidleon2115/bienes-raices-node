@@ -1,9 +1,12 @@
-import express from "express";
+import express, { urlencoded } from "express";
 import usuarioRoutes from "./routes/usuarioRoutes.js";
 import db from "./config/db.js";
 
 //Crear la app
 const app = express();
+
+//Habilitar lectura de datos de formularios
+app.use( urlencoded({extended: true}) )
 
 //Conexion a la base de datos
 try {
